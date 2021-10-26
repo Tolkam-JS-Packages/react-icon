@@ -1,5 +1,4 @@
-import * as React from 'react';
-import { PureComponent } from 'react';
+import { PureComponent, HTMLProps } from 'react';
 
 export default class Icon extends PureComponent<Props> {
 
@@ -17,6 +16,6 @@ export default class Icon extends PureComponent<Props> {
     }
 }
 
-export interface Props extends React.HTMLProps<Icon> {
+export interface Props extends HTMLProps<Icon> {
     viewBox?: number
 }
